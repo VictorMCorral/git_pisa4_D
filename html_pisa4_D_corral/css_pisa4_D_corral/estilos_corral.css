@@ -100,7 +100,7 @@ a:hover {
 }
 
 ul {
-    list-style-type: square; /* Puedes cambiar esto o usar clases de Bootstrap */
+    list-style-type: none; /* Puedes cambiar esto o usar clases de Bootstrap */
     padding-left: 20px;
 }
 
@@ -116,6 +116,11 @@ footer {
 
 footer p {
     margin: 0;
+    
+}
+
+footer a{
+    color: var(--color-text-light);
 }
 
 /* Pequeños ajustes para responsividad si son necesarios más allá de Bootstrap */
