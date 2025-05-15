@@ -18,7 +18,7 @@ Repositorio situacion de aprendizaje 4
 
 14: Informe de sostenibilidad
 
-    14.1. Estructura de un informe de sostenibilidad
+    14.1. Estructura de un informe de sostenibilidad 
 
     14.2. Contenido esencial del informe
 
