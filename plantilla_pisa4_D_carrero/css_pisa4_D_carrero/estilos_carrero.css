@@ -124,6 +124,24 @@ footer p {
   margin: 0;
 }
 
+.btn {
+  color: white;
+  /* font-weight: bold; */
+  margin-top: 15px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.link-btn {
+  color: white;
+}
+
+.link-btn:hover {
+  color: white;
+}
+
 /* Pequeños ajustes para responsividad si son necesarios más allá de Bootstrap */
 @media (max-width: 768px) {
   header h1 {
