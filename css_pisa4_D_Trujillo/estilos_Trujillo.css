@@ -127,3 +127,11 @@ footer p {
         font-size: 1.5rem;
     }
 }
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+.listasecund {
+    margin-left: 3rem;
+}
