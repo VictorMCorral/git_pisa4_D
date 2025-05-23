@@ -1,0 +1,134 @@
+:root {
+    --color-primary: #183b4e;
+    --color-secondary: #dda853; 
+    --color-accent: #dda853; 
+    --color-dark: #27548a; 
+    --color-light: #f3f3e0; 
+    --color-text-light: #f3f3e0;
+    --color-text-dark: #212529;
+    --color-navbar-bg: #27548a; 
+    --color-footer-bg: #27548a; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-light);
+    color: var(--color-text-dark);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el footer esté al menos al final de la pantalla */
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    border-bottom: 5px solid var(--color-accent);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 300; /* Un poco más ligero el título */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: var(--color-navbar-bg) !important; /* Forzar el color con !important si es necesario por Bootstrap */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    color: var(--color-secondary) !important;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    color: var(--color-text-light) !important;
+}
+
+.navbar-nav .nav-link {
+    color: var(--color-light) !important; /* Color del texto de los enlaces */
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--color-secondary) !important; /* Color al pasar el ratón */
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--color-accent) !important; /* Color del enlace activo */
+    font-weight: bold;
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,0.5) !important; /* Color del borde del toggler */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* Icono del toggler en blanco */
+}
+
+
+main {
+    flex-grow: 1; /* Permite que el main crezca y empuje el footer hacia abajo */
+}
+
+main section {
+    background-color: #f3f3e0;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+h2 {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-secondary);
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: var(--color-dark);
+    margin-top: 1.5em;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none; /* Puedes cambiar esto o usar clases de Bootstrap */
+    padding-left: 20px;
+}
+
+#dynamic-index li a {
+    font-weight: 500;
+}
+
+footer {
+    background-color: var(--color-footer-bg);
+    color: var(--color-text-light);
+    border-top: 5px solid var(--color-primary);
+}
+
+footer p {
+    margin: 0;
+    
+}
+
+footer a{
+    color: var(--color-text-light);
+}
+
+/* Pequeños ajustes para responsividad si son necesarios más allá de Bootstrap */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
