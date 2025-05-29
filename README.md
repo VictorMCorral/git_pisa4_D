@@ -1,25 +1,23 @@
-# git_pisa4_D
-Repositorio situacion de aprendizaje 4
+Proyecto 4 de PISA,
+## Autores
 
-🟩 Alfredo (Responsable de Taiga)
- 2: Economía verde y circular aplicada a nuestro sector productivo
+Alberto Trujillo,
+Alfredo Carrero,
+Iciar Cabezuelo,
+Victor Manuel Corral,
 
-    2.1. Fundamentos de economía verde y circular
+## Fecha,
+27 de Mayo de 2025
 
-    2.2. Aplicación en el ciclo de vida del hardware y software
+## Número de situación de aprendizaje y Módulo,
+Situación de Aprendizaje 04: Gestión de proyectos para equipos ágiles, contenedores y lenguajes de marcas
 
-    2.3. Comparación con el modelo clásico de producción
+### Proyecto Intermodular,
+PI-RA4. Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados.,
 
-9: Plan de sostenibilidad en nuestro sector productivo
+### Sostenibilidad Aplicada,
+SA-RA5. Realiza actividades sostenibles minimizando el impacto de las mismas en el medio ambiente.,
+SA-RA6. Analiza un plan de sostenibilidad de una empresa del sector, identificando sus grupos de interés, los aspectos ASG materiales y justificando acciones para su gestión y medición,
 
-    9.1. Definición de plan de sostenibilidad
-
-    9.2. Ejemplos reales de planes de sostenibilidad de empresas
-
-14: Informe de sostenibilidad
-
-    14.1. Estructura de un informe de sostenibilidad 
-
-    14.2. Contenido esencial del informe
-
-    14.3. Reflexión crítica y propuesta de mejora
+## Ciclo formativo,
+1DAW
